@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.10.0"
+  version: "0.10.1"
 
 package:
   name: fortitude-lint
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://github.com/PlasmaFAIR/fortitude/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: 883d2b0448c7c81e380f07fa8d46780cb9503cd0be9e3434945c702fd18016ec
+  sha256: 1b03901650199fb05e6c9f7afda0789b67a73b52bb0bf0f9d3e877b47890c736
 
 build:
   number: 0
